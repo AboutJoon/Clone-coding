@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body{
+    background-color: #0A0C1B;
+    margin: 0 auto;
+}
+
+.container{
+    background-color: #1C1938;
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    display: block;
+}
+
+.container img{
+    width: 450px;
+    height: 400px;
+    float: right;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#opacity{
+    position: relative;
+    display: block;
+    width: 450px;
+    height: 400px;
+    background-color: hsla(277, 64%, 61%, 0.6);
+    bottom: 345px;
+    left: 450px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#p1{
+    margin-top: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    text-align: justify;
+    margin-left: 70px;
+}
+
+.purple{
+    color: #AB5BDD;
+}
+
+#p2{
+    margin-left: 70px;
+    text-align: justify;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    color: #A6A4BA;
+    line-height: 150%;
+    margin-bottom: 50px;
+}
+
+.big{
+    display: inline-block;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.p3{
+    margin-left: 65px;
+}
+
+.p4{
+    margin-left: 30px;
+}
+
+.p5{
+    margin-left: 30px;
+}
+
+.small{
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    color: #A6A4BA;
+    letter-spacing: 1.5px;
+}
