@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body{
+    background-color: #E6EFF6;
+}
+
+.container{
+    position: absolute;
+    width: 700px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.p1{
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #4AA6A1;
+    margin-left: 20px;
+}
+
+.p2{
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #C4D85D;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.p3{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #A3A9AF;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.p1, .p2, .p3{
+    margin-left: 30px;
+}
+
+.box1{
+    width: 350px;
+    height: 250px;
+    background-color: #2BB3B1;
+    border-bottom-left-radius: 10px;
+}
+
+.box1 p{
+    margin-left: 30px;
+}
+
+.box2{
+    width: 350px;
+    height: 250px;
+    background-color: #4ABEBD;
+    border-bottom-right-radius: 10px;
+}
+
+.grid{
+    display: flex;
+}
+
+.p4{
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F6FFFF;
+    margin-bottom: 0;
+    margin-top: 30px;
+
+}
+
+.p5{
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #F6FFFF;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.p6{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: #9BF4F5;
+    margin-top: 10px;
+}
+
+.small{
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    color: #6CD1D0;
+}
+
+.reason{
+    font-family: 'Karla', sans-serif;
+    font-size: 13px;
+    color: #9BF4F5;
+    margin-top: 10px;
+}
+
+.sign{
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 240px;
+    height: 40px;
+    background-color: #BFDF32;
+    color: white;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px green;
+}
+
+.box2 p{
+    margin-left: 30px;
+}
+
+.reason{
+    line-height: 50%;
+}
+
+.why{
+    margin-bottom: 30px;
+}
