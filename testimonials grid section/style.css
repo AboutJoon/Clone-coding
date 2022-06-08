@@ -12,6 +12,12 @@ body{
     grid-gap: 25px;
 }
 
+.box1{
+    background-image: url(bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+}
+
 /* grid 영역 */
 .item:nth-child(1){
     grid-column: span 2;
