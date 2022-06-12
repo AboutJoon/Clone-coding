@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+body{
+    margin: 20px;
+    background-image: url(bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+
+}
+
+#back{
+    background-size: contain;
+}
+
+.head{
+    text-align: center;
+}
+
+.head img{
+    margin-top: 70px;
+    width: 90px;
+    height: 90px;
+}
+
+.title{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.detail{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: gray;
+}
+
+.ios, .mac{
+    margin-top: 15px;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    line-height: 40px;
+}
+
+.ios{
+    background-color: #23BBA5;
+}
+
+.mac{
+    background-color: #5E75FF;
+}
+
+.snippets{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.p1{
+    font-size: 30px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+}
+
+.p2{
+    font-size: 16px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 80px;
+}
+
+.snippets img{
+    position: relative;
+    left: 100px;
+    float: left;
+    width: 650px;
+    border-left: transparent;
+    clip-path: polygon(13% 0, 100% 0, 100% 100%, 13% 100%);
+}
+
+.snip_title{
+    position: relative;
+    top: 40px;
+    font-size: 25px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.snip_small{
+    position: relative;
+    top: 40px;
+    font-size: 15px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    color: gray;
+}
+
+.clip{
+    text-align: center;
+    margin-top: 250px;
+}
+
+.super{
+    text-align: center;
+}
+
+.super_detail_1, .super_detail_2, .super_detail_3{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.super_detail_2, .super_detail_3{
+    position: relative;
+    bottom: 30px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.super_title{
+    font-size: 25px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+}
+
+.super_small{
+    font-size: 15px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    color: gray;
+}
+
+.icon{
+    text-align: center;
+}
+
+.icon img{
+    position: relative;
+    right: 40px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.foot{
+    text-align: center;
+    margin-top: 200px;
+}
+
+footer{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: #F5F6F8;
+    width: 90vw;
+    height: 120px;
+}
+
+#logo_bottom{
+    position: relative;
+    top: 40px;
+    left: 70px;
+    width: 50px;
+    height: 50px;
+    margin-right: 100px;
+}
+
+footer p{
+    margin-left: 80px;
+    font-size: 15px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    color: gray;
+    line-height: 50px;
+}
+
+ion-icon{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 500px;
+    top: 50px;
+    margin-left: 10px;
+}
